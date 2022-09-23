@@ -1,0 +1,285 @@
+/*Reseteo CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Imagenes/Imagen-fondo2.jpg");
+    background-repeat: round;
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Jost:ital,wght@1,700 & family= Poppins:ital@1 & display=swap');
+
+/*Estilos del header*/
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+.contenedor-header {
+    padding: 30px 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 20px 0px;
+}
+
+.lista-navbar {
+    list-style: none;
+    display: flex;
+}
+
+.lista-navbar li a {
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.5s;
+}
+
+.lista-navbar li:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.lista-navbar li:hover a {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.menu-activo {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.contenedor-sin-footer {
+    min-height: 80vh;
+    }
+
+
+/*Estilos del footer*/
+
+footer {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif, light;
+    font-size: 10px;
+    height: 20vh;
+    padding-top: 10vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-logo-redes {
+    margin-bottom: 5px;
+}
+
+.logo-redes {
+    margin: 0 10px;
+}
+
+/*Index - Estilos del main*/
+
+section {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+section p {
+    font-size: 14px;
+}
+
+.texto-bienvenida {
+    margin-top: 20vh;
+}
+
+.texto-introduccion {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*Mis trabajos - Estilos del main*/
+
+h3 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.section-productos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagenes-producto-1 img {
+    width: 40.5%;
+    padding: 1px;
+}
+
+.imagenes-producto-2 img {
+    width: 27%;
+    padding: 1px;
+}
+
+.imagen-producto-3-grande img {
+    width: 81.5%;
+}
+
+.imagenes-producto-3-chicas img {
+    width: 40.5%;
+    padding: 1px;
+}
+
+.imagenes-producto-4 img {
+    width: 40.5%;
+    padding: 1px;
+}
+
+
+.texto-producto {
+    padding: 20px;
+}
+
+.nombre-producto {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.descripcion-producto {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+/*Procesos - Estilos del main*/
+
+.section-procesos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.texto-proceso {
+    padding: 20px;
+}
+
+.nombre-proceso {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.descripcion-producto {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.imagenes-proceso-1 img {
+    width: 35%;
+    padding: 2px;
+}
+
+/*Sobre mí - Estilos del main*/
+
+.section-sobremi {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto-sobremi {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+/*Contacto - Estilos del main*/
+
+.section-contacto {
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+form p {
+    color: #FFFFFF;
+    font-family:'Poppins', sans-serif;
+    padding: 5px;
+    font-size: 14px;
+}
+
+form input {
+    border-color: #FFFFFF;
+    background-color: #131313;
+    border-radius: 5px;
+    height: 32px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+form textarea {
+    border-color: #FFFFFF;
+    background-color: #131313;
+    border-radius: 5px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.cta {
+    background-color: #FFFFFF;
+}
+
+
+
