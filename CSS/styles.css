@@ -21,49 +21,22 @@ a:link, a:visited, a:active {
     color: #FFFFFF;
 }
 
-.contenedor-header {
-    padding: 30px 40px;
+.navbar {
     font-size: 14px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-between;
+    margin: 20px;
 }
 
-.navbar {
-    padding: 20px 0px;
+.navbar-nav a {
+    margin: 0px 10px;
 }
 
-.lista-navbar {
-    list-style: none;
-    display: flex;
-}
-
-.lista-navbar li a {
-    padding-left: 25px;
-    padding-right: 25px;
-    transition: all 0.5s;
-}
-
-.lista-navbar li:hover {
-    transform: scale(1.2);
-    transition: all 0.5s;
-}
-
-.lista-navbar li:hover a {
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-.menu-activo {
-    font-weight: 700;
-    color: #FFFFFF;
-}
+/*Tamaño de todo menos footer*/
 
 .contenedor-sin-footer {
     min-height: 80vh;
     }
-
 
 /*Estilos del footer*/
 
@@ -84,7 +57,7 @@ footer {
 }
 
 .contenedor-logo-redes {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .logo-redes {
@@ -109,14 +82,13 @@ section p {
 }
 
 .texto-bienvenida {
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .texto-introduccion {
-    width: 70%;
     margin: 0 auto;
+    width: 90%;
 }
-
 
 /*Mis trabajos - Estilos del main*/
 
@@ -125,7 +97,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     text-align: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .section-productos {
@@ -135,30 +107,28 @@ h3 {
     margin-right: 5%;
 }
 
-.imagenes-producto-1 img {
-    width: 40.5%;
-    padding: 1px;
+.row {
+    margin: 0 !important;
 }
 
-.imagenes-producto-2 img {
-    width: 27%;
-    padding: 1px;
+.col-lg-6 {
+    margin: 0 !important;
+    padding: 5px
 }
 
-.imagen-producto-3-grande img {
-    width: 81.5%;
+.col-lg-4 {
+    margin: 0 !important;
+    padding: 5px
 }
 
-.imagenes-producto-3-chicas img {
-    width: 40.5%;
-    padding: 1px;
+.col-lg-12 {
+    margin: 0 !important;
+    padding: 5px
 }
 
-.imagenes-producto-4 img {
-    width: 40.5%;
-    padding: 1px;
+.imagenes-producto img {
+    width: 100%;
 }
-
 
 .texto-producto {
     padding: 20px;
@@ -179,7 +149,6 @@ h3 {
     font-size: 12px;
     margin-top: 8px;
 }
-
 
 /*Procesos - Estilos del main*/
 
@@ -210,18 +179,15 @@ h3 {
     margin-top: 8px;
 }
 
-.imagenes-proceso-1 img {
-    width: 35%;
-    padding: 2px;
+.imagenes-proceso img {
+    width: 100%;
 }
 
 /*Sobre mí - Estilos del main*/
 
 .section-sobremi {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 60px 0px;
+    margin: 0% 10%;
     align-items: center;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
@@ -239,6 +205,10 @@ h3 {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 70px;
+}
+
+.section-contacto p {
+    font-size: 14px;
 }
 
 form {
@@ -282,4 +252,61 @@ form textarea {
 }
 
 
+/*Media queries - Mobile*/
 
+@media only screen and (max-width:500px) {
+    
+    /*Footer*/
+    
+    footer {
+        font-size: 7px;
+    }
+    
+    /*Index*/
+
+    section h1 {
+        font-size: 24px;
+    }
+    section p {
+        font-size: 11px;
+    }
+
+    /*Titulos secciones*/
+
+    h3 {
+        font-size: 18px;
+    }
+
+    /*Mis trabajos*/
+
+    .nombre-producto {
+        font-size: 15px;
+    }
+    .descripcion-producto {
+        font-size: 9px;
+    }
+
+    /*Procesos*/
+
+    .nombre-proceso {
+        font-size: 15px;
+    }
+
+    .descripcion-proceso {
+        font-size: 9px;
+    }
+
+    /*Sobre mí*/
+
+    .section-sobremi {
+        font-size: 9px;
+    }
+
+    .foto-sobremi {
+        width: 80%;
+    }
+
+    /*Contacto*/
+
+
+}
