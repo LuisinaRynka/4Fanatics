@@ -25,11 +25,33 @@ a:link, a:visited, a:active {
     font-size: 14px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
+    padding: 28px;
 }
 
 .navbar-nav a {
     margin: 0px 10px;
+    text-align: end;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-expand-md {
+    justify-content: space-between;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding-right: 6px;
+}
+
+.navbar-toggler-icon {
+    border: 0px;
 }
 
 /*Tamaño de todo menos footer*/
@@ -107,22 +129,12 @@ h3 {
     margin-right: 5%;
 }
 
-.row {
-    margin: 0 !important;
+.calles-row-img {
+    margin: 0;
 }
 
-.col-lg-6 {
-    margin: 0 !important;
-    padding: 5px
-}
-
-.col-lg-4 {
-    margin: 0 !important;
-    padding: 5px
-}
-
-.col-lg-12 {
-    margin: 0 !important;
+.calles-col-img {
+    margin: 0;
     padding: 5px
 }
 
@@ -214,8 +226,6 @@ h3 {
 form {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    margin: 0 auto;
     margin-bottom: 100px;
 }
 
@@ -308,5 +318,7 @@ form textarea {
 
     /*Contacto*/
 
-
+    .section-contacto p {
+        font-size: 9px;
+    }
 }
