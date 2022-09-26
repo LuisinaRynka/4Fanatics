@@ -142,6 +142,10 @@ h3 {
     width: 100%;
 }
 
+.imagenes-producto img:hover {
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
 .texto-producto {
     padding: 20px;
 }
@@ -195,6 +199,10 @@ h3 {
     width: 100%;
 }
 
+.imagenes-proceso img:hover {
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
 /*Sobre mí - Estilos del main*/
 
 .section-sobremi {
@@ -234,6 +242,7 @@ form p {
     font-family:'Poppins', sans-serif;
     padding: 5px;
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 form input {
