@@ -1,0 +1,44 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*Estilos del header*/
+
+a:active {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+.navbar {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding: 28px;
+}
+
+.navbar-nav {
+     a {
+        margin: 0px 10px;
+        text-align: end;
+    }
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-expand-md {
+    justify-content: space-between;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding-right: 6px;
+}
+
+.navbar-toggler-icon {
+    border: 0px;
+}
