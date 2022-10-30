@@ -61,7 +61,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   footer {
     font-size: 8px;
   }
@@ -101,7 +101,7 @@ footer .contenedor-logo-redes .logo-redes {
   font-size: 28px;
   padding-bottom: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .bienvenida .animado .titulo-intruduccion {
     font-size: 22px;
   }
@@ -111,7 +111,7 @@ footer .contenedor-logo-redes .logo-redes {
   margin: 0 auto;
   width: 90%;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .bienvenida .animado .texto-introduccion {
     font-size: 12px;
   }
@@ -148,7 +148,7 @@ footer .contenedor-logo-redes .logo-redes {
   font-size: 12px;
   margin-top: 8px;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .section-productos .texto-producto .descripcion-producto {
     font-size: 10px;
   }
@@ -162,9 +162,10 @@ footer .contenedor-logo-redes .logo-redes {
   flex: 50%;
   padding: 5px;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .contenedor-flex-producto5 .producto-en-columna {
     flex: 100%;
+    padding: 0px 5px;
   }
 }
 .contenedor-flex-producto5 .producto-en-columna img {
@@ -192,9 +193,10 @@ footer .contenedor-logo-redes .logo-redes {
   flex: 25%;
   padding: 5px;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .contenedor-galeria .contenedor-flex .columnas {
     flex: 50%;
+    padding: 0px 5px;
   }
 }
 .contenedor-galeria .contenedor-flex .columnas img {
@@ -210,8 +212,8 @@ footer .contenedor-logo-redes .logo-redes {
 .section-sobremi {
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -222,7 +224,7 @@ footer .contenedor-logo-redes .logo-redes {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .section-sobremi p {
     font-size: 10px;
   }
@@ -231,7 +233,7 @@ footer .contenedor-logo-redes .logo-redes {
   width: 60%;
   margin-bottom: 40px;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .section-sobremi .foto-sobremi {
     width: 80%;
   }
@@ -254,7 +256,7 @@ main .section-contacto p {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   main .section-contacto p {
     font-size: 12px;
   }
@@ -333,7 +335,7 @@ h2 {
   font-size: 18px;
   font-weight: 600;
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   h2 {
     font-size: 14px;
   }

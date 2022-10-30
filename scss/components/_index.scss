@@ -27,7 +27,7 @@
             font-size: 28px;
             padding-bottom: 20px;
     
-            @media (max-width:500px) {
+            @media (max-width:576px) {
                 font-size: 22px;   
             }
         }
@@ -37,7 +37,7 @@
             margin: 0 auto;
             width: 90%;
     
-            @media (max-width:500px) {
+            @media (max-width:576px) {
                 font-size: nth($list: $font-size, $n: 4);   
             }
         }

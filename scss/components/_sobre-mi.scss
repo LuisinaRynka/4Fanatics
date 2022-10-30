@@ -6,8 +6,8 @@
 .section-sobremi {
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
         font-family: $font-family;
         text-align: center;
 
-        @media (max-width:500px) {
+        @media (max-width:576px) {
             font-size: nth($list: $font-size, $n: 5);   
         }
     }
@@ -27,7 +27,7 @@
         width: 60%;
         margin-bottom: 40px;
 
-        @media (max-width:500px) {
+        @media (max-width:576px) {
             width: 80%;   
         }
     }

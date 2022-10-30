@@ -40,7 +40,7 @@ h2 {
     font-size: nth($list: $font-size, $n: 2);
     font-weight: 600;
 
-    @media (max-width:500px) {
+    @media (max-width:576px) {
         font-size: nth($list: $font-size, $n: 3);   
     }
 }
