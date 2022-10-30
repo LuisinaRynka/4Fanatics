@@ -154,35 +154,52 @@ footer .contenedor-logo-redes .logo-redes {
   }
 }
 
+.contenedor-flex-producto5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenedor-flex-producto5 .producto-en-columna {
+  flex: 50%;
+  padding: 5px;
+}
+@media (max-width: 900px) {
+  .contenedor-flex-producto5 .producto-en-columna {
+    flex: 100%;
+  }
+}
+.contenedor-flex-producto5 .producto-en-columna img {
+  width: 100%;
+  margin: 5px;
+}
+
 /*Variables background*/
 /*variables background footer*/
 /*Variables tipografías*/
 /*Tipografías*/
 /*Estilos de ´Procesos*/
-.section-procesos {
+.contenedor-galeria {
+  box-sizing: border-box;
   margin-top: 60px;
   margin-bottom: 60px;
   margin-left: 5%;
   margin-right: 5%;
 }
-.section-procesos .dimensiones-carrousel {
-  width: 90%;
-  margin: auto;
+.contenedor-galeria .contenedor-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
-.section-procesos .texto-proceso {
-  margin-top: 32px;
+.contenedor-galeria .contenedor-flex .columnas {
+  flex: 25%;
+  padding: 5px;
 }
-.section-procesos .texto-proceso .descripcion-proceso {
-  color: #FFFFFF;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-size: 12px;
-  margin-top: 8px;
-}
-@media (max-width: 500px) {
-  .section-procesos .texto-proceso .descripcion-proceso {
-    font-size: 10px;
+@media (max-width: 900px) {
+  .contenedor-galeria .contenedor-flex .columnas {
+    flex: 50%;
   }
+}
+.contenedor-galeria .contenedor-flex .columnas img {
+  width: 100%;
+  margin: 5px;
 }
 
 /*Variables background*/
@@ -191,8 +208,10 @@ footer .contenedor-logo-redes .logo-redes {
 /*Tipografías*/
 /*Estilos de Sobre mí*/
 .section-sobremi {
-  margin: 60px 0px;
-  margin: 0% 10%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
   align-items: center;
   display: flex;
   flex-direction: column;
