@@ -203,11 +203,13 @@ footer .contenedor-logo-redes .logo-redes {
 }
 .contenedor-galeria .contenedor-flex .columnas .contenedor-imagen-galeria img {
   width: 100%;
+}
+.contenedor-galeria .contenedor-flex .columnas .contenedor-imagen-galeria .imagen-galeria-modal {
   cursor: pointer;
   object-fit: cover;
   transition: 0.2s linear;
 }
-.contenedor-galeria .contenedor-flex .columnas .contenedor-imagen-galeria img:hover {
+.contenedor-galeria .contenedor-flex .columnas .contenedor-imagen-galeria .imagen-galeria-modal:hover {
   transform: scale(1.25);
 }
 .contenedor-galeria .modal-imagen {
