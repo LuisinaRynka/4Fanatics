@@ -65,14 +65,13 @@
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             border: 1.5px solid #fff;
-            height: 85%;
+            max-height: 90%;
+            max-width: 90%;
             object-fit: cover;
 
-            @media (max-width: 768px) {
-                height: 90%;
+            @media (max-width: 800px) {
+                max-width: 85%;
             }
         }
-    }
-    
+    }   
 }
-
