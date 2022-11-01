@@ -33,12 +33,13 @@
         }
 
         .texto-introduccion {
-            font-size: nth($list: $font-size, $n: 3);
+            font-size: nth($list: $font-size, $n: 2);
             margin: 0 auto;
-            width: 90%;
+            width: 75%;
     
             @media (max-width:576px) {
                 font-size: nth($list: $font-size, $n: 4);   
+                width: 90%;
             }
         }
     }

@@ -13,7 +13,7 @@ a:active {
 }
 
 .navbar {
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   padding: 28px;
@@ -107,13 +107,14 @@ footer .contenedor-logo-redes .logo-redes {
   }
 }
 .bienvenida .animado .texto-introduccion {
-  font-size: 14px;
+  font-size: 17px;
   margin: 0 auto;
-  width: 90%;
+  width: 75%;
 }
 @media (max-width: 576px) {
   .bienvenida .animado .texto-introduccion {
     font-size: 12px;
+    width: 90%;
   }
 }
 
@@ -145,12 +146,12 @@ footer .contenedor-logo-redes .logo-redes {
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 8px;
 }
 @media (max-width: 576px) {
   .section-productos .texto-producto .descripcion-producto {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -266,15 +267,21 @@ footer .contenedor-logo-redes .logo-redes {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 576px) {
+  .section-sobremi {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 .section-sobremi p {
-  font-size: 12px;
+  font-size: 14px;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 @media (max-width: 576px) {
   .section-sobremi p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 .section-sobremi .foto-sobremi {
@@ -297,6 +304,12 @@ main .section-contacto {
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 70px;
+}
+@media (max-width: 576px) {
+  main .section-contacto {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 main .section-contacto p {
   font-size: 14px;
@@ -383,7 +396,7 @@ h2 {
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
 }
 @media (max-width: 576px) {

@@ -10,6 +10,11 @@ main {
         margin-left: 15%;
         margin-right: 15%;
         margin-bottom: 70px;
+
+            @media (max-width:576px) {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
     
         p {
             font-size: nth($list: $font-size, $n: 3);
@@ -65,4 +70,3 @@ main {
         }
     }
 }
-
